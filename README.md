@@ -1,5 +1,5 @@
 
-# f127g-T
+# f127g-S
 Exynos 850
 ==========
 
@@ -12,12 +12,19 @@ cd f127g-T
 
 2. Build
 
+./build_kernel.sh
+
+or
+
+
 make clean && make mrproper
 export PLATFORM_VERSION=12
 export ANDROID_MAJOR_VERSION=S
 export ARCH=arm64
 make physwizz_defconfig
 make
+
+
 
 
 @physwizz on telegram and xda
